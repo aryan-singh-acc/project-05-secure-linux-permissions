@@ -1,0 +1,9 @@
+Project 5 :
+
+Implemented user-based access restrictions on an Ubuntu Linux server using Linux users, groups, directory ownership, and file permissions.
+
+Created two users, p5_reader and p5_writer, and assigned them to separate groups. Configured a reader directory with read-only group access and a writer directory with read/write group access.
+
+Tested both authorized and unauthorized operations using sudo -u to simulate each user. Verified that users could access their designated directories while unauthorized operations were blocked with Permission denied.
+
+Technologies: Ubuntu Linux, Bash, Linux users and groups, chmod, chown, sudo.
